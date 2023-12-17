@@ -22,17 +22,17 @@ function Home() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (userData.length < 10 ) {
-      // if (data.name !== "" && data.speed !== "" && data.time !== "") {
+      if (data.name !== "" && data.speed !== "" && data.time !== "") {
         setUserData([...userData, data]);
         setData({
           name: "",
           speed: "",
           time: "",
         });
-      // }
-      // else{
-      //   alert("All fields are required");
-      // }
+      }
+      else{
+        alert("All fields are required");
+      }
       
     } else {
       alert("Can't add more than 10 participants");
