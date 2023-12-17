@@ -108,8 +108,8 @@ body{
 }
 
 .track5{
-    height: 470px;
-    width: 620px;
+    height: 465px;
+    width: 615px;
     border-radius: 40%;
     position: absolute;
     background-color: #DAD5CF;
@@ -119,7 +119,7 @@ body{
     border: 1px solid white;
 }
 
-/* .track6{
+.track6{
     height: 510px;
     width: 660px;
     border-radius: 40%;
@@ -176,4 +176,4 @@ body{
     top: calc(50% - 670px/2);
     left: calc(50% - 820px/2);
     border: 1px solid white;
-} */ 
+} 
